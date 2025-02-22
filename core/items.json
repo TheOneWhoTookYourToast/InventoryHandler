@@ -1,0 +1,892 @@
+{
+    "pack_info": {
+        "title": "core",
+        "author": "TheOneWhoTookYourToast",
+        "description": "Core items for the game",
+        "mod_version": "1.0.0",
+        "tool_version": "1.0.0"
+    },
+    "items": {
+        "ale": {
+            "name": "Ale",
+            "value": 5,
+            "weight": 473,
+            "type": "consumable",
+            "description": "A drink made from fermented substances, could be part or wholely made of Wheat, Barley, Fruit, Honey, Herbs, Spices.",
+            "nutrition": 10
+        },
+        "allium": {
+            "name": "Allium",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "A flower that can be used for decoration or crafting."
+        },
+        "ancient_debris": {
+            "name": "Ancient Debris",
+            "value": 100,
+            "weight": 1,
+            "type": "misc",
+            "description": "A relic from the past. Could be valuable after identifying it."
+        },
+        "anvil": {
+            "name": "Anvil",
+            "value": 100,
+            "weight": 24948,
+            "type": "tool",
+            "description": "A heavy iron block used for blacksmithing."
+        },
+        "apple": {
+            "name": "Apple",
+            "value": 1,
+            "weight": 1,
+            "type": "consumable",
+            "description": "A fruit that can be eaten raw or used in cooking.",
+            "nutrition": 5
+        },
+        "armor_stand": {
+            "name": "Armor Stand",
+            "value": 100,
+            "weight": 1,
+            "type": "furniture",
+            "description": "A stand that can hold armor."
+        },
+        "arrow": {
+            "name": "Arrow",
+            "value": 1,
+            "weight": 1,
+            "type": "ammo",
+            "description": "A projectile that can be fired from a bow."
+        },
+        "axe": {
+            "name": "Axe",
+            "value": 100,
+            "weight": 1,
+            "type": "tool",
+            "description": "A tool used for chopping wood."
+        },
+        "azalea": {
+            "name": "Azalea",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "A plant that can be used for decoration or made into dye."
+        },
+        "azure_bluet": {
+            "name": "Azure Bluet",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "A plant that can be used for decoration or made into dye."
+        },
+        "baked_potato": {
+            "name": "Baked Potato",
+            "value": 1,
+            "weight": 1,
+            "type": "consumable",
+            "description": "A potato that has been cooked.",
+            "nutrition": 8
+        },
+        "bamboo": {
+            "name": "Bamboo",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "A tall, fast-growing grass that can be used for crafting."
+        },
+        "barrel": {
+            "name": "Barrel",
+            "value": 50,
+            "weight": 100,
+            "type": "container",
+            "description": "A wooden container used for storing items."
+        },
+        "beetroot": {
+            "name": "Beetroot",
+            "value": 1,
+            "weight": 1,
+            "type": "consumable",
+            "description": "A root vegetable that can be eaten raw or used in cooking.",
+            "nutrition": 3
+        },
+        "beetroot_seeds": {
+            "name": "Beetroot Seeds",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "Seeds that can be planted to grow beetroots."
+        },
+        "beetroot_soup": {
+            "name": "Beetroot Soup",
+            "value": 5,
+            "weight": 1,
+            "type": "consumable",
+            "description": "A soup made from beetroots.",
+            "nutrition": 6
+        },
+        "bell_large": {
+            "name": "Large Bell",
+            "value": 100,
+            "weight": 50,
+            "type": "misc",
+            "description": "A large bell that can be rung."
+        },
+        "bell_medium": {
+            "name": "Medium Bell",
+            "value": 75,
+            "weight": 30,
+            "type": "misc",
+            "description": "A medium-sized bell that can be rung."
+        },
+        "bell_small": {
+            "name": "Small Bell",
+            "value": 50,
+            "weight": 10,
+            "type": "misc",
+            "description": "A small bell that can be rung."
+        },
+        "black_opal": {
+            "name": "Black Opal",
+            "value": 500,
+            "weight": 1,
+            "type": "gem",
+            "description": "A rare and valuable gemstone."
+        },
+        "blast_furnace": {
+            "name": "Blast Furnace",
+            "value": 150,
+            "weight": 300,
+            "type": "tool",
+            "description": "A furnace used for smelting ores at a faster rate."
+        },
+        "blue_orchid": {
+            "name": "Blue Orchid",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "A flower that can be used for decoration or crafting."
+        },
+        "bone": {
+            "name": "Bone",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "A bone that can be used for crafting or as a material."
+        },
+        "bone_meal": {
+            "name": "Bone Meal",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "A material made from ground bones, used as fertilizer."
+        },
+        "book": {
+            "name": "Book",
+            "value": 10,
+            "weight": 1,
+            "type": "misc",
+            "description": "A book that can be read or used for crafting."
+        },
+        "book_and_quill": {
+            "name": "Book and Quill",
+            "value": 15,
+            "weight": 1,
+            "type": "misc",
+            "description": "A book with a quill, used for writing."
+        },
+        "bookshelf": {
+            "name": "Bookshelf",
+            "value": 50,
+            "weight": 20,
+            "type": "furniture",
+            "description": "A shelf used for storing books."
+        },
+        "bow": {
+            "name": "Bow",
+            "value": 50,
+            "weight": 1,
+            "type": "weapon",
+            "description": "A ranged weapon used for shooting arrows."
+        },
+        "bowl": {
+            "name": "Bowl",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "A container used for holding food or liquids."
+        },
+        "branch": {
+            "name": "Branch",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "A small branch from a tree, can be used for crafting."
+        },
+        "bread": {
+            "name": "Bread",
+            "value": 3,
+            "weight": 1,
+            "type": "consumable",
+            "description": "A staple food made from flour and water.",
+            "nutrition": 5
+        },
+        "brewing_stand": {
+            "name": "Brewing Stand",
+            "value": 50,
+            "weight": 10,
+            "type": "tool",
+            "description": "A stand used for brewing potions."
+        },
+        "brick": {
+            "name": "Brick",
+            "value": 2,
+            "weight": 2,
+            "type": "material",
+            "description": "A block used for building."
+        },
+        "brown_mushroom": {
+            "name": "Brown Mushroom",
+            "value": 1,
+            "weight": 1,
+            "type": "consumable",
+            "description": "A mushroom that can be used in cooking.",
+            "nutrition": 2
+        },
+        "brush": {
+            "name": "Brush",
+            "value": 5,
+            "weight": 1,
+            "type": "tool",
+            "description": "A tool used for cleaning or painting."
+        },
+        "bucket": {
+            "name": "Bucket",
+            "value": 10,
+            "weight": 5,
+            "type": "tool",
+            "description": "A container used for holding liquids."
+        },
+        "cactus": {
+            "name": "Cactus",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "A plant that can be used for decoration or crafting."
+        },
+        "cake": {
+            "name": "Cake",
+            "value": 15,
+            "weight": 5,
+            "type": "consumable",
+            "description": "A sweet baked dessert.",
+            "nutrition": 10
+        },
+        "campfire_kit": {
+            "name": "Campfire Kit",
+            "value": 20,
+            "weight": 10,
+            "type": "tool",
+            "description": "A kit used to set up a campfire."
+        },
+        "candle": {
+            "name": "Candle",
+            "value": 5,
+            "weight": 1,
+            "type": "misc",
+            "description": "A source of light made from wax."
+        },
+        "carrot": {
+            "name": "Carrot",
+            "value": 1,
+            "weight": 1,
+            "type": "consumable",
+            "description": "A root vegetable that can be eaten raw or used in cooking.",
+            "nutrition": 3
+        },
+        "cartography_table": {
+            "name": "Cartography Table",
+            "value": 50,
+            "weight": 20,
+            "type": "tool",
+            "description": "A table used for map making."
+        },
+        "cauldron": {
+            "name": "Cauldron",
+            "value": 30,
+            "weight": 50,
+            "type": "tool",
+            "description": "A large pot used for brewing or cooking."
+        },
+        "chain": {
+            "name": "Chain",
+            "value": 10,
+            "weight": 5,
+            "type": "material",
+            "description": "A series of linked metal rings."
+        },
+        "charcoal": {
+            "name": "Charcoal",
+            "value": 2,
+            "weight": 1,
+            "type": "material",
+            "description": "A fuel source made from burnt wood."
+        },
+        "chest": {
+            "name": "Chest",
+            "value": 20,
+            "weight": 15,
+            "type": "container",
+            "description": "A container used for storing items."
+        },
+        "clay": {
+            "name": "Clay",
+            "value": 1,
+            "weight": 2,
+            "type": "material",
+            "description": "A material used for crafting and building."
+        },
+        "clock": {
+            "name": "Clock",
+            "value": 30,
+            "weight": 1,
+            "type": "tool",
+            "description": "A device used to tell time."
+        },
+        "coal": {
+            "name": "Coal",
+            "value": 2,
+            "weight": 1,
+            "type": "material",
+            "description": "A fuel source used for smelting and crafting."
+        },
+        "coal_ore": {
+            "name": "Coal Ore",
+            "value": 5,
+            "weight": 10,
+            "type": "material",
+            "description": "A block containing coal, can be mined for resources."
+        },
+        "cocoa_beans": {
+            "name": "Cocoa Beans",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "Beans that can be used for crafting or as a dye."
+        },
+        "compass": {
+            "name": "Compass",
+            "value": 20,
+            "weight": 1,
+            "type": "tool",
+            "description": "A device used for navigation."
+        },
+        "composter": {
+            "name": "Composter",
+            "value": 30,
+            "weight": 15,
+            "type": "tool",
+            "description": "A container used for composting organic materials."
+        },
+        "cookie": {
+            "name": "Cookie",
+            "value": 2,
+            "weight": 1,
+            "type": "consumable",
+            "description": "A sweet baked treat.",
+            "nutrition": 2
+        },
+        "copper_bulb": {
+            "name": "Copper Bulb",
+            "value": 10,
+            "weight": 1,
+            "type": "material",
+            "description": "A bulb made of copper, used in crafting."
+        },
+        "copper_ingot": {
+            "name": "Copper Ingot",
+            "value": 5,
+            "weight": 1,
+            "type": "material",
+            "description": "A bar of refined copper, used in crafting."
+        },
+        "copper_ore": {
+            "name": "Copper Ore",
+            "value": 3,
+            "weight": 10,
+            "type": "material",
+            "description": "A block containing copper, can be mined for resources."
+        },
+        "cornflower": {
+            "name": "Cornflower",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "A flower that can be used for decoration or crafting."
+        },
+        "crafting_table": {
+            "name": "Crafting Table",
+            "value": 20,
+            "weight": 10,
+            "type": "tool",
+            "description": "A table used for crafting items."
+        },
+        "crossbow": {
+            "name": "Crossbow",
+            "value": 75,
+            "weight": 5,
+            "type": "weapon",
+            "description": "A ranged weapon used for shooting bolts."
+        },
+        "dandelion": {
+            "name": "Dandelion",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "A flower that can be used for decoration or crafting."
+        },
+        "decorated_pot": {
+            "name": "Decorated Pot",
+            "value": 25,
+            "weight": 5,
+            "type": "misc",
+            "description": "A pot with decorative designs."
+        },
+        "diamond": {
+            "name": "Diamond",
+            "value": 500,
+            "weight": 1,
+            "type": "gem",
+            "description": "A rare and valuable gemstone."
+        },
+        "diamond_hoe": {
+            "name": "Diamond Hoe",
+            "value": 1000,
+            "weight": 5,
+            "type": "tool",
+            "description": "A hoe made of diamond, used for farming."
+        },
+        "diamond_horse_armor": {
+            "name": "Diamond Horse Armor",
+            "value": 1500,
+            "weight": 10,
+            "type": "armor",
+            "description": "Armor made of diamond for horses."
+        },
+        "diamond_ore": {
+            "name": "Diamond Ore",
+            "value": 500,
+            "weight": 10,
+            "type": "material",
+            "description": "A block containing diamond, can be mined for resources."
+        },
+        "diamond_shovel": {
+            "name": "Diamond Shovel",
+            "value": 1000,
+            "weight": 5,
+            "type": "tool",
+            "description": "A shovel made of diamond, used for digging."
+        },
+        "dragon_egg": {
+            "name": "Dragon Egg",
+            "value": 2000,
+            "weight": 50,
+            "type": "misc",
+            "description": "A rare egg from a dragon."
+        },
+        "dragons_breath": {
+            "name": "Dragon's Breath",
+            "value": 500,
+            "weight": 1,
+            "type": "material",
+            "description": "A bottle containing the breath of a dragon."
+        },
+        "dried_kelp": {
+            "name": "Dried Kelp",
+            "value": 2,
+            "weight": 1,
+            "type": "consumable",
+            "description": "Kelp that has been dried, can be eaten.",
+            "nutrition": 2
+        },
+        "dye": {
+            "name": "Dye",
+            "value": 1,
+            "weight": 1,
+            "type": "material",
+            "description": "A substance used for coloring materials."
+        },
+        "egg": {
+            "name": "Egg",
+            "value": 1,
+            "weight": 1,
+            "type": "consumable",
+            "description": "An egg that can be eaten or used in cooking.",
+            "nutrition": 3
+        },
+        "emerald": {
+            "name": "Emerald",
+            "value": 500,
+            "weight": 1,
+            "type": "gem",
+            "description": "A rare and valuable gemstone."
+        },
+        "emerald_ore": {
+            "name": "Emerald Ore",
+            "value": 500,
+            "weight": 10,
+            "type": "material",
+            "description": "A block containing emerald, can be mined for resources."
+        },
+        "empty_map": {
+            "name": "Empty Map",
+            "value": 10,
+            "weight": 1,
+            "type": "tool",
+            "description": "A blank map that can be used for navigation."
+        },
+        "enchanted_book": {
+            "name": "Enchanted Book",
+            "value": 100,
+            "weight": 1,
+            "type": "misc",
+            "description": "A book with magical properties."
+        },
+        "feather": {
+            "name": "Feather",
+            "value": 1,
+            "weight": 1,
+            "type": "material",
+            "description": "A feather that can be used for crafting."
+        },
+        "fiber": {
+            "name": "Fiber",
+            "value": 1,
+            "weight": 1,
+            "type": "material",
+            "description": "A material used for crafting."
+        },
+        "firework_rocket": {
+            "name": "Firework Rocket",
+            "value": 5,
+            "weight": 1,
+            "type": "misc",
+            "description": "A rocket that can be used for fireworks."
+        },
+        "firework_star": {
+            "name": "Firework Star",
+            "value": 5,
+            "weight": 1,
+            "type": "misc",
+            "description": "A star used in crafting fireworks."
+        },
+        "fishing_rod": {
+            "name": "Fishing Rod",
+            "value": 20,
+            "weight": 5,
+            "type": "tool",
+            "description": "A rod used for fishing."
+        },
+        "fletching_table": {
+            "name": "Fletching Table",
+            "value": 50,
+            "weight": 20,
+            "type": "tool",
+            "description": "A table used for crafting arrows."
+        },
+        "flint": {
+            "name": "Flint",
+            "value": 1,
+            "weight": 1,
+            "type": "material",
+            "description": "A hard, sedimentary cryptocrystalline form of the mineral quartz."
+        },
+        "flint_and_steel": {
+            "name": "Flint and Steel",
+            "value": 10,
+            "weight": 5,
+            "type": "tool",
+            "description": "A tool used to create fire."
+        },
+        "flower_pot": {
+            "name": "Flower Pot",
+            "value": 5,
+            "weight": 1,
+            "type": "misc",
+            "description": "A small pot used for holding flowers."
+        },
+        "furnace": {
+            "name": "Furnace",
+            "value": 20,
+            "weight": 50,
+            "type": "tool",
+            "description": "A device used for smelting ores and cooking food."
+        },
+        "glass_bottle": {
+            "name": "Glass Bottle",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "A bottle made of glass, used for holding liquids."
+        },
+        "goat_horn": {
+            "name": "Goat Horn",
+            "value": 10,
+            "weight": 5,
+            "type": "misc",
+            "description": "A horn from a goat, can be used as a musical instrument."
+        },
+        "gold_ingot": {
+            "name": "Gold Ingot",
+            "value": 50,
+            "weight": 1,
+            "type": "material",
+            "description": "A bar of refined gold, used in crafting."
+        },
+        "gold_nugget": {
+            "name": "Gold Nugget",
+            "value": 5,
+            "weight": 1,
+            "type": "material",
+            "description": "A small piece of gold, used in crafting."
+        },
+        "gold_ore": {
+            "name": "Gold Ore",
+            "value": 30,
+            "weight": 10,
+            "type": "material",
+            "description": "A block containing gold, can be mined for resources."
+        },
+        "golden_boots": {
+            "name": "Golden Boots",
+            "value": 100,
+            "weight": 5,
+            "type": "armor",
+            "description": "Boots made of gold, used for protection."
+        },
+        "golden_chestplate": {
+            "name": "Golden Chestplate",
+            "value": 200,
+            "weight": 10,
+            "type": "armor",
+            "description": "A chestplate made of gold, used for protection."
+        },
+        "golden_helmet": {
+            "name": "Golden Helmet",
+            "value": 150,
+            "weight": 5,
+            "type": "armor",
+            "description": "A helmet made of gold, used for protection."
+        },
+        "golden_hoe": {
+            "name": "Golden Hoe",
+            "value": 50,
+            "weight": 5,
+            "type": "tool",
+            "description": "A hoe made of gold, used for farming."
+        },
+        "golden_horse_armor": {
+            "name": "Golden Horse Armor",
+            "value": 300,
+            "weight": 10,
+            "type": "armor",
+            "description": "Armor made of gold for horses."
+        },
+        "golden_leggings": {
+            "name": "Golden Leggings",
+            "value": 150,
+            "weight": 10,
+            "type": "armor",
+            "description": "Leggings made of gold, used for protection."
+        },
+        "golden_shovel": {
+            "name": "Golden Shovel",
+            "value": 50,
+            "weight": 5,
+            "type": "tool",
+            "description": "A shovel made of gold, used for digging."
+        },
+        "golden_sword": {
+            "name": "Golden Sword",
+            "value": 100,
+            "weight": 5,
+            "type": "weapon",
+            "description": "A sword made of gold, used for combat."
+        },
+        "gravel": {
+            "name": "Gravel",
+            "value": 1,
+            "weight": 10,
+            "type": "material",
+            "description": "A block of loose rock fragments."
+        },
+        "grindstone": {
+            "name": "Grindstone",
+            "value": 50,
+            "weight": 20,
+            "type": "tool",
+            "description": "A tool used for sharpening and repairing items."
+        },
+        "gunpowder": {
+            "name": "Gunpowder",
+            "value": 10,
+            "weight": 1,
+            "type": "material",
+            "description": "A material used for crafting explosives."
+        },
+        "hay_bale": {
+            "name": "Hay Bale",
+            "value": 5,
+            "weight": 10,
+            "type": "misc",
+            "description": "A block of hay used for feeding animals."
+        },
+        "honey_bottle": {
+            "name": "Honey Bottle",
+            "value": 15,
+            "weight": 1,
+            "type": "consumable",
+            "description": "A bottle of honey, can be consumed.",
+            "nutrition": 5
+        },
+        "honeycomb": {
+            "name": "Honeycomb",
+            "value": 10,
+            "weight": 1,
+            "type": "material",
+            "description": "A piece of honeycomb, used in crafting."
+        },
+        "iron_hoe": {
+            "name": "Iron Hoe",
+            "value": 50,
+            "weight": 5,
+            "type": "tool",
+            "description": "A hoe made of iron, used for farming."
+        },
+        "iron_horse_armor": {
+            "name": "Iron Horse Armor",
+            "value": 100,
+            "weight": 10,
+            "type": "armor",
+            "description": "Armor made of iron for horses."
+        },
+        "iron_ingot": {
+            "name": "Iron Ingot",
+            "value": 10,
+            "weight": 1,
+            "type": "material",
+            "description": "A bar of refined iron, used in crafting."
+        },
+        "iron_nugget": {
+            "name": "Iron Nugget",
+            "value": 1,
+            "weight": 1,
+            "type": "material",
+            "description": "A small piece of iron, used in crafting."
+        },
+        "iron_ore": {
+            "name": "Iron Ore",
+            "value": 5,
+            "weight": 10,
+            "type": "material",
+            "description": "A block containing iron, can be mined for resources."
+        },
+        "iron_shovel": {
+            "name": "Iron Shovel",
+            "value": 50,
+            "weight": 5,
+            "type": "tool",
+            "description": "A shovel made of iron, used for digging."
+        },
+        "kelp": {
+            "name": "Kelp",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "A type of seaweed, can be used in crafting."
+        },
+        "lantern": {
+            "name": "Lantern",
+            "value": 20,
+            "weight": 5,
+            "type": "misc",
+            "description": "A light source made of metal and glass."
+        },
+        "lapis_lazuli": {
+            "name": "Lapis Lazuli",
+            "value": 10,
+            "weight": 1,
+            "type": "gem",
+            "description": "A blue gemstone used in crafting and enchanting."
+        },
+        "lapis_lazuli_ore": {
+            "name": "Lapis Lazuli Ore",
+            "value": 10,
+            "weight": 10,
+            "type": "material",
+            "description": "A block containing lapis lazuli, can be mined for resources."
+        },
+        "lava_bucket": {
+            "name": "Lava Bucket",
+            "value": 30,
+            "weight": 10,
+            "type": "tool",
+            "description": "A bucket filled with lava, used as a fuel source."
+        },
+        "lead": {
+            "name": "Lead",
+            "value": 5,
+            "weight": 1,
+            "type": "tool",
+            "description": "A rope used for leading animals."
+        },
+        "leaf": {
+            "name": "Leaf",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "A leaf from a tree, can be used in crafting."
+        },
+        "leather": {
+            "name": "Leather",
+            "value": 5,
+            "weight": 1,
+            "type": "material",
+            "description": "A material made from animal hide, used in crafting."
+        },
+        "leather_horse_armor": {
+            "name": "Leather Horse Armor",
+            "value": 50,
+            "weight": 10,
+            "type": "armor",
+            "description": "Armor made of leather for horses."
+        },
+        "lectern": {
+            "name": "Lectern",
+            "value": 30,
+            "weight": 15,
+            "type": "furniture",
+            "description": "A stand used for holding books."
+        },
+        "lightning_rod": {
+            "name": "Lightning Rod",
+            "value": 20,
+            "weight": 5,
+            "type": "tool",
+            "description": "A rod used to attract lightning."
+        },
+        "lilac": {
+            "name": "Lilac",
+            "value": 1,
+            "weight": 1,
+            "type": "misc",
+            "description": "A flower that can be used for decoration or crafting."
+        },
+        "cutlery": {
+            "name": "Cutlery",
+            "value": 0,
+            "weight": 5,
+            "type": "material",
+            "description": "A fork, butter knife, steak knife, and spoon all rolled into a cloth napkin."
+        }
+    }
+}
